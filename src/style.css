@@ -5,9 +5,4 @@
 }
 body{
     background: rgb(91, 145, 182);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
