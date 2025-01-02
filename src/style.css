@@ -18,9 +18,9 @@ body{
 .nav-holder{
     width: 100%;
     height: 70px; 
-    background: peachpuff;
-    overflow: scroll;
-    overflow-x: hidden;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: height 0.3s ease;
 }
 .navbar{
     width: 100%;
@@ -56,4 +56,8 @@ body{
 }
 .nav-links-sec ul li{
     cursor: pointer;
+    width: fit-content;
+}
+.nav-links-sec ul li:hover {
+    border-bottom: 1px solid black;
 }
