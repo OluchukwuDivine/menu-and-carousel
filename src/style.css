@@ -107,7 +107,9 @@ body{
     background: rgb(153, 148, 148);
     border-radius: 50%;
 }
-.check{
-    transform: translate(300px, 0);
-    transition: transform 0.5s ease;
+.slide-transition{
+    transition: transform 0.5s ease-in-out;
+}
+.main-slider{
+    display: flex;
 }
