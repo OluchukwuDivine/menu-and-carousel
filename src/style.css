@@ -63,6 +63,48 @@ body{
 }
 .carousel{
     width: 100%;
+    height: 350px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.btn-n-image{
+    display: flex;
+    align-items: center;
+}
+.btn-n-image i{
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.btn-n-image i:hover{
+    background: rgb(184, 176, 176);
+}
+.carousel-slides{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-slides img{
+    width: 300px;
+    height: 100%;
+}
+.img-dots-holder{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.img-dots:hover{
+    background: rgb(43, 40, 40);
+}
+.img-dots{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: rgb(153, 148, 148);
+    border-radius: 50%;
 }

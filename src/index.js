@@ -3,7 +3,6 @@ import "../src/assets/fontawesome/css/all.min.css";
 
 const menuBtn = document.querySelector(".menu-btn");
 const navHolder = document.querySelector(".nav-holder");
-const carousel = document.querySelector(".carousel");
 
 let menustatus = true;
 
