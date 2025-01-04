@@ -5,4 +5,4 @@ import "../src/assets/fontawesome/css/all.min.css";
 import "../src/components/menu.js";
 
 //import javascript file for the carousel
-import "../src/components/carousel.js"
+import "../src/components/carousel.js";
