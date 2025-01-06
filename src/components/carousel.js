@@ -7,10 +7,6 @@ const slide1 = "../src/assets/images/img1.jpeg";
 const slide2 = "../src/assets/images/img2.jpeg";
 const slide3 = "../src/assets/images/img3.jpeg";
 
-const imgArray = [slide1, slide2, slide3];
-const randomIndex = Math.floor(Math.random() * imgArray.length);
-// const randomElement = myArray[randomIndex];
-console.log(randomIndex);
 
 prevBtn.addEventListener("click", () => {
     mainSlider.style.backgroundImage = `url(${imgArray[randomIndex]})`;
