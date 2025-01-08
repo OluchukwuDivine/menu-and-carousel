@@ -14,3 +14,5 @@ dots.forEach(dot => {
       alert("This section has not been updated");
     });
 });
+
+//Other codes starts here
